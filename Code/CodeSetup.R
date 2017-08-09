@@ -1,0 +1,39 @@
+#-------------------------------------------------------------------
+##################
+# Libraries
+##################
+
+## Imported Packages: (.packages())
+rfiles <- c("utils", "stargazer", "parallel")
+for( i in rfiles) {
+    devtools::use_package( i, pkg=packg)
+}
+
+# devtools::use_package( i, "Suggests", pkg=pdir)}
+
+#-------------------------------------------------------------------
+##################
+# Add Codes
+################## 
+
+# Which Codes
+rfile0 <- c(
+    "SpaghettiPlot.R",
+    "PolygonPlot.R",
+    "Scattergram.R",
+    "MCreg_lm.R",
+    "TableMaker_trim.R",
+    "TableMaker.R"
+)
+
+codedire <- path.expand("~/Desktop/Common/R_Code/")
+rfiles <- paste0(codedire, rfile0)
+
+# Move Code
+file.copy(rfiles, rdir, overwrite=T )
+devtools::load_all( rdir )
+
+# Create Code Documentation
+devtools::document( pkg=packg)
+
+
