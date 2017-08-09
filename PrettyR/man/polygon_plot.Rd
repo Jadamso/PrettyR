@@ -5,7 +5,7 @@
 \title{Plot the polygon}
 \usage{
 polygon_plot(reg, xname, level, xlb = "X", ylb = "Y", xlm = NULL,
-  ylm = NULL, ttl = NULL, ...)
+  ylm = NULL, ttl = NULL, off = TRUE, ...)
 }
 \arguments{
 \item{reg}{lm object}

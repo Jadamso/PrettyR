@@ -152,6 +152,7 @@ polygon_plot <- compiler::cmpfun( function(
 	xlm=NULL,
 	ylm=NULL,
 	ttl=NULL,
+	off=TRUE,
 	...) {
 
     ## Regression CI
@@ -185,7 +186,7 @@ polygon_plot <- compiler::cmpfun( function(
     ## Polygon
     polygon_add(X, ci_lu, ...)
     
-    dev.off()
+    if(off){ dev.off() }
 })
 
 
