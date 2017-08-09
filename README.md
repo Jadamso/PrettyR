@@ -91,7 +91,13 @@ stargazerJlist(c(REGS, REGS), keep="X1")
 
     #--------------------------------------------------------------
     # Plotting
+    
+    scatter_gram(DF$X1, DF$Y)
   
-    polygon_plot(REGS[[1]], "X1", off=FALSE)
+    polygon_plot(REGS[[1]], "X1")
+    
+    # rci <- polygon_ci(REGS[[2]], "X1")
+    # polygon_add(rci$X, rci$ci_lu, col=rgb(0,0,1,.25) )
+    ## Looks like noise here because of prediction `type`
   
 ```

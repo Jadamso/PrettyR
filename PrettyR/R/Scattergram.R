@@ -2,14 +2,30 @@
 ##################
 #' Scatter Plot with Histograms
 ################## 
+#' 
+#' @param X vector of values
+#' @param Y vector of values
+#' @param XBINS bin the X,Y for plotting
+#' @param xbin_scale how to scale XBINS
+#' @param xbks,ybks how to make histograms
+#' @param col color of the plot
+#' @param xlb,ylb axis lables
+#' @param ttl plot title
+#'
+#' @return plots polygon
+#' 
+# @details
+#' @examples scatter_gram(1:100, runif(100))
+#'  
+#' @export
 
 
 scatter_gram <- compiler::cmpfun( function(
     X, Y,
     XBINS=NULL,
     xbin_scale=function(x){x*2+.5},
-	xbks,
-	ybks,
+	xbks="Sturges",
+	ybks="Sturges",
 	col=rgb(0,0,0,.5),
 	xlb="X",
 	ylb="Y",
@@ -28,40 +44,70 @@ scatter_gram <- compiler::cmpfun( function(
 	}
 
 
-	## Scatterplot
-	par(fig=c(0,0.9,0,0.9))
-	#range x1,x2,y1,y2 => bottom left
-	plot.new()
-	plot.window( c(0.2,1), range(Y, na.rm=T))
+    ## Plot Dimensions
+	#x1 <- 0
+	#x2 <- 0.9
+	#y1 <- 0
+	#y2 <- 0.9
+	#xymax <- 1
+    #xymin <- .7
+    
 
+	
+    zones <- matrix(c(2,0,1,3), ncol=2, byrow=TRUE)
+    layout(zones, widths=c(9/10,1/10), heights=c(1/10,9/10))
+    
+    ## Scatterplot, ## bottom left
+	#par(fig=c(x1,x2,y1,y2)) 
+    par(mar=c(3,3,1,1))
+	plot.new()
+    title( ttl )
+    
     ## Plot Raw Points
+	plot.window( range(x, na.rm=T), range(y, na.rm=T))
 	points(x=x, y=y, pch=16, col=col, cex=.2)
 	
 	## Axis 
 	axis(1)
 	axis(2)	
-	mtext(xlb, 1)
+	mtext(xlb, 1, line=2)
 	mtext(ylb, 2, line=2)
+	
+	#par(oma=c(3,3,0,0))
+    #mtext(xlb, side=1, line=1, outer=TRUE, adj=0, 
+    #    at=.8 * (mean(x) - min(x))/(max(x)-min(x)))
+    #mtext(ylb, side=2, line=1, outer=TRUE, adj=0, 
+    #    at=(.8 * (mean(y) - min(y))/(max(y) - min(y))))
 
-	## X Histogram
-	par(fig=c(0,0.9,0.65,1), new=TRUE)
-	xhist <- hist(X, plot=FALSE, breaks=xbks)
-    barplot(xhist$density,
+	## X Histogram, on top
+	#par(fig=c(x1,x2,xymin,xymax), new=TRUE)
+	par(mar=c(0,3,1,1))
+	xhist <- hist(X, plot=FALSE, breaks=xbks)$density
+    barplot(xhist,
 	    axes=FALSE,
-	    ylim=c(0, max(xhist$density, na.rm=TRUE)),
+	    ylim=range(xhist, na.rm=TRUE),
 	    space=0,
-	    horiz=FALSE, col=col) 
+	    horiz=FALSE,
+	    col=col,
+	    border=TRUE,
+	    axis.lty=1,
+	    plot=TRUE) 
 
-	## Y Histogram
-	par(fig=c(0.75,1,0,0.9), new=TRUE)
-	yhist <- hist(Y, plot=FALSE, breaks=ybks)
-    barplot(yhist$density,
+	## Y Histogram, on right
+	#par(fig=c(xymin,xymax,y1,y2), new=TRUE)
+	par(mar=c(3,0,1,1))
+	yhist <- hist(Y, plot=FALSE, breaks=ybks)$density
+    barplot(yhist,
         axes=FALSE,
-        xlim=c(0.2, max(yhist$density, na.rm=TRUE)),
+        xlim=range(yhist, na.rm=TRUE),
         space=0,
         horiz=TRUE,
-        col=col)
+        col=col,
+        border=TRUE,
+	    axis.lty=1,
+        plot=TRUE)
 
-	title( ttl )
 })
-
+	
+# https://stackoverflow.com/questions/8545035/scatterplot-with-marginal-histograms-in-ggplot2
+# https://www.r-bloggers.com/example-8-41-scatterplot-with-marginal-histograms/

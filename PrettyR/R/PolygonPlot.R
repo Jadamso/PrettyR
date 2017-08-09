@@ -84,11 +84,16 @@ polygon_ci <- compiler::cmpfun( function(
     ...){
     
     ci_lu <- predict(reg,
-        interval='confidence')[,2:3]
+        interval='confidence',
+        ...)[,2:3]
     
     X <- reg$model[,xname]
     
-    return( list(ci_lu=ci_lu, X=X) )
+    orx <- order(X)
+    
+    CI_LU <- list(ci_lu=ci_lu[orx,], X=X[orx])
+    
+    return( CI_LU )
     
 })
 
@@ -148,13 +153,13 @@ polygon_plot <- compiler::cmpfun( function(
 	xlm=NULL,
 	ylm=NULL,
 	ttl=NULL,
-	off=TRUE,
+	off=FALSE,
 	...) {
 
     ## Regression CI
     reglist <- polygon_ci(reg, xname, ...)
 
-    X <- reglist$X
+    X     <- reglist$X
     ci_lu <- reglist$ci_lu
     
     

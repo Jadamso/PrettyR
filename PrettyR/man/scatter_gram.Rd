@@ -5,9 +5,33 @@
 \title{Scatter Plot with Histograms}
 \usage{
 scatter_gram(X, Y, XBINS = NULL, xbin_scale = function(x) {     x * 2 + 0.5
-  }, xbks, ybks, col = rgb(0, 0, 0, 0.5), xlb = "X", ylb = "Y",
-  ttl = NULL)
+  }, xbks = "Sturges", ybks = "Sturges", col = rgb(0, 0, 0, 0.5),
+  xlb = "X", ylb = "Y", ttl = NULL)
+}
+\arguments{
+\item{X}{vector of values}
+
+\item{Y}{vector of values}
+
+\item{XBINS}{bin the X,Y for plotting}
+
+\item{xbin_scale}{how to scale XBINS}
+
+\item{xbks, ybks}{how to make histograms}
+
+\item{col}{color of the plot}
+
+\item{xlb, ylb}{axis lables}
+
+\item{ttl}{plot title}
+}
+\value{
+plots polygon
 }
 \description{
 Scatter Plot with Histograms
+}
+\examples{
+scatter_gram(1:100, runif(100))
+ 
 }
