@@ -1,9 +1,25 @@
 #------------------------------------------------------------------
 ##################
-# Custom confidence intervals
+#' Custom confidence intervals
 ################## 
+#' 
+#' @param Pred
+#' @param CI
+#' @param Fit
+#' @param SE
+#' @param level
+#' @param deg
+#'
+#' @return matrix
+#' 
+#' @details Should first try
+#'    predict(reg, interval = 'confidence', level=level) 
+# @examples
+#'  
+#' @export
 
-# Should first try: predict(reg, interval = 'confidence', level=level) 
+
+#
 
 CI_lu <- compiler::cmpfun( function(
     Pred=NULL,
@@ -48,8 +64,19 @@ CI_lu <- compiler::cmpfun( function(
 
 #------------------------------------------------------------------
 ##################
-# Polygon Plot
+#' Polygon Plot
 ################## 
+#' 
+#' @param reg
+#' @param xname
+#' @param level
+#'
+#' @return list with matrix of lower,upper confidence intervals and X variable
+#' 
+# @details
+# @examples
+#'  
+#' @export
 
 polygon_ci <- compiler::cmpfun( function(
     reg,
@@ -70,9 +97,19 @@ polygon_ci <- compiler::cmpfun( function(
 
 #------------------------------------------------------------------
 ##################
-# Polygon Plot
+#' Polygon Plot
 ################## 
-
+#' 
+#' @param X X matrix from polygon_ci
+#' @param ci_lu matrix from polygon_ci
+#' @param col,bcol color objects
+#'
+#' @return plots polygon
+#' 
+# @details
+# @examples
+#'  
+#' @export
 
 polygon_add <- compiler::cmpfun( function(
     X,
@@ -90,9 +127,19 @@ polygon_add <- compiler::cmpfun( function(
 
 #------------------------------------------------------------------
 ##################
-# Spaghetti Plot
+#' Plot the polygon
 ################## 
-## Plot the loess line for each list element
+#' 
+#' @param reg lm object
+#' @param xname name of xvariable of interest
+#' @param level confidence interval range
+#'
+#' @return plots polygon
+#' 
+# @details
+# @examples
+#'  
+#' @export
 
 ## see also http://www.ats.ucla.edu/stat/r/faq/spagplot.htm
 
@@ -106,7 +153,6 @@ polygon_plot <- compiler::cmpfun( function(
 	ylm=NULL,
 	ttl=NULL,
 	...) {
-
 
     ## Regression CI
     reglist <- polygon_ci(reg, xname, level)
@@ -122,12 +168,9 @@ polygon_plot <- compiler::cmpfun( function(
 	    range( ci_lu, na.rm=T)
 	} else { ylm }
 
-
+    ## New Plot
 	plot.new()
 	plot.window( xlim=xlm, ylim=ylm )
-
-    ## Spaghetti Lines
-    polygon_add(X, ci_lu, ...)
 
 	## Axis
 	axis(1)
@@ -137,6 +180,12 @@ polygon_plot <- compiler::cmpfun( function(
 	mtext( xlb, 1)
 	mtext( ylb, 2)
 	title( ttl )
+	
+	
+    ## Polygon
+    polygon_add(X, ci_lu, ...)
+    
+    dev.off()
 })
 
 

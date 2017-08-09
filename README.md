@@ -32,6 +32,8 @@ stargazerJlist(c(REGS, REGS), keep="X1")
 
 ```{r}
 
+    library(PrettyR)
+    
     #--------------------------------------------------------------
     # Setup
 
@@ -65,26 +67,31 @@ stargazerJlist(c(REGS, REGS), keep="X1")
 
     #--------------------------------------------------------------
     # Table Formatting
-
   
     new.align <- 'l ll @{\\\\hspace{18pt}}ll'
-    new.notes <- "All the variables are made up. Remember that no statistical procedure is a panacea. Table notes should make the table readable by itself, and thus may be quite quite quite long."
+    new.notes <- "All the variables are made up.
+        Remember that no statistical procedure is a panacea.
+        Table notes should make the table readable by itself.
+        And thus may be quite quite quite long."
 
     new.title <- c(" & 1 & 2 & Cat & Cat")
     new.tail  <- paste0( paste( c("FE","N","Y","N","Y"), collapse=" & "), " \\\\")
     new.metatitle <- c( rep("Type 1",2), rep("Type 2",2) )
 
-    stargazer()
-    
-    
+   
     stargazerJlist(
         TESTS,
         keep="X1",
         title=new.title,
         label="tab:new",
         column.sep.width="-4pt",
-	    new.notes=new.notes,
+        new.notes=new.notes,
         new.tail=new.tail,
         new.align=new.align)
 
+    #--------------------------------------------------------------
+    # Plotting
+  
+    polygon_plot(REGS[[1]], "X1")
+  
 ```
