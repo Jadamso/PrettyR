@@ -81,16 +81,14 @@ CI_lu <- compiler::cmpfun( function(
 polygon_ci <- compiler::cmpfun( function(
     reg,
     xname,
-    level, 
     ...){
     
     ci_lu <- predict(reg,
-        interval='confidence',
-        level=level)[,2:3]
+        interval='confidence')[,2:3]
     
     X <- reg$model[,xname]
     
-    return( list(ci_lu, X) )
+    return( list(ci_lu=ci_lu, X=X) )
     
 })
 
@@ -115,14 +113,13 @@ polygon_add <- compiler::cmpfun( function(
     X,
     ci_lu,
     col=rgb(0,0,0,.25),
-    bcol=NA,
-    ...){
+    bcol=NA){
 
 	xlst <- c( X, rev(X) )
 	ylst <- c( ci_lu[,1] ,rev(ci_lu[,2]) )
 	xylst <- na.omit( data.frame(x=xlst, y=ylst) )
 
-	polygon( xylst$x, xylst$y, col=col, border=bcol, ...)
+	polygon( xylst$x, xylst$y, col=col, border=bcol)
 })
 
 #------------------------------------------------------------------
@@ -146,7 +143,6 @@ polygon_add <- compiler::cmpfun( function(
 polygon_plot <- compiler::cmpfun( function(
     reg,
     xname,
-    level,
 	xlb="X",
 	ylb="Y",
 	xlm=NULL,
@@ -156,7 +152,7 @@ polygon_plot <- compiler::cmpfun( function(
 	...) {
 
     ## Regression CI
-    reglist <- polygon_ci(reg, xname, level)
+    reglist <- polygon_ci(reg, xname, ...)
 
     X <- reglist$X
     ci_lu <- reglist$ci_lu
@@ -184,7 +180,7 @@ polygon_plot <- compiler::cmpfun( function(
 	
 	
     ## Polygon
-    polygon_add(X, ci_lu, ...)
+    polygon_add(X, ci_lu)
     
     if(off){ dev.off() }
 })

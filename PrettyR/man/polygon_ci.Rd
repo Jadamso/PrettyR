@@ -4,7 +4,7 @@
 \alias{polygon_ci}
 \title{Polygon Plot}
 \usage{
-polygon_ci(reg, xname, level, ...)
+polygon_ci(reg, xname, ...)
 }
 \arguments{
 \item{level}{}

@@ -4,7 +4,7 @@
 \alias{polygon_add}
 \title{Polygon Plot}
 \usage{
-polygon_add(X, ci_lu, col = rgb(0, 0, 0, 0.25), bcol = NA, ...)
+polygon_add(X, ci_lu, col = rgb(0, 0, 0, 0.25), bcol = NA)
 }
 \arguments{
 \item{X}{X matrix from polygon_ci}

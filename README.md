@@ -92,6 +92,6 @@ stargazerJlist(c(REGS, REGS), keep="X1")
     #--------------------------------------------------------------
     # Plotting
   
-    polygon_plot(REGS[[1]], "X1")
+    polygon_plot(REGS[[1]], "X1", off=FALSE)
   
 ```
