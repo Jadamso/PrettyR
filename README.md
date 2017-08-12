@@ -101,3 +101,9 @@ stargazerJlist(c(REGS, REGS), keep="X1")
     ## Looks like noise here because of prediction `type`
   
 ```
+
+
+
+## Caveat Emptor
+This is a pre-release to the public and not gauranteed to work correctly with your code and data.
+
