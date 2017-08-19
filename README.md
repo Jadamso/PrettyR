@@ -26,10 +26,6 @@ stargazerJlist(c(REGS, REGS), keep="X1")
 -->
 
 
-<!--
-
--->
-
 ```{r}
 
     library(PrettyR)
