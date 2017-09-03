@@ -25,9 +25,9 @@ source(paste0(pdir,"Code/CodeSetup.R") )
 source(paste0(pdir,"Code/PackageMake.R") )
 
 
-## source("~/Desktop/Packages/GeoCleanR/Code/GeoCleanR.R")
+## source("~/Desktop/Packages/PrettyR/Code/PrettyR.R")
 
-## R CMD BATCH GeoCleanR.R
+## R CMD BATCH PrettyR.R 
 
 
 #https://bookdown.org/ccolonescu/RPoE4/

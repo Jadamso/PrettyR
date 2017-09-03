@@ -2,9 +2,12 @@
 % Please edit documentation in R/PolygonPlot.R
 \name{polygon_add}
 \alias{polygon_add}
+\alias{polygon_format}
 \title{Polygon Plot}
 \usage{
 polygon_add(X, ci_lu, col = rgb(0, 0, 0, 0.25), bcol = NA)
+
+polygon_format(X, ci_lu)
 }
 \arguments{
 \item{X}{X matrix from polygon_ci}

@@ -114,19 +114,31 @@ polygon_ci <- compiler::cmpfun( function(
 #'  
 #' @export
 
+
 polygon_add <- compiler::cmpfun( function(
     X,
     ci_lu,
     col=rgb(0,0,0,.25),
     bcol=NA){
 
+	xylst <- polygon_format(X, ci_lu)
+	polygon( xylst$x, xylst$y, col=col, border=bcol)
+})
+
+
+#' @rdname polygon_add
+#' @export
+polygon_format <- compiler::cmpfun( function(
+    X,
+    ci_lu){
+
 	xlst <- c( X, rev(X) )
 	ylst <- c( ci_lu[,1] ,rev(ci_lu[,2]) )
 	xylst <- na.omit( data.frame(x=xlst, y=ylst) )
 
-	polygon( xylst$x, xylst$y, col=col, border=bcol)
+    return(xylst)
+    
 })
-
 #------------------------------------------------------------------
 ##################
 #' Plot the polygon
