@@ -16,12 +16,12 @@ for( i in rfiles) {
 # Add Codes
 ################## 
 
-# Which Codes
 rfile0 <- c(
     "SpaghettiPlot.R",
+    "spag_loess.R",
+    "mfxi_lm.R",
     "PolygonPlot.R",
     "Scattergram.R",
-    "MCreg_lm.R",
     "TableMaker_trim.R",
     "TableMaker.R"
 )
