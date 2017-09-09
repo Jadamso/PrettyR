@@ -1,0 +1,13 @@
+bibentry(bibtype = "Manual",
+         textVersion = "Jordan Adamson (2017). PrettyR: Functions to make pretty graphs and tables. R package version 0.1.0.",
+         header = "To cite package 'PrettyR' in publications use:",
+         key = "PrettyR",
+         title = "{PrettyR}: Functions to make pretty graphs and tables",
+         author = person(given = "'Jordan",
+                         family = "Adamson'",
+                         role = c("aut", "cre"),
+                         email = "jordan.m.adamson@gmail.com"),
+         year = "2017",
+         month = "9",
+         note = "R package version 0.1.0",
+         url = "https://sites.google.com/a/g.clemson.edu/ja-resources")

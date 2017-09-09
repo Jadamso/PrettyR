@@ -16,7 +16,7 @@ for( i in rfiles) {
 # Add Codes
 ################## 
 
-rfile0 <- c(
+rfile <- c(
     "SpaghettiPlot.R",
     "spag_loess.R",
     "mfxi_lm.R",
@@ -26,9 +26,8 @@ rfile0 <- c(
     "TableMaker.R"
 )
 
-codedire <- path.expand("~/Desktop/Common/R_Code/")
-rfiles <- paste0(codedire, rfile0)
-
+rfiles <- paste0(hmdir, "PrettyR/", rfile)
+    
 # Move Code
 file.copy(rfiles, rdir, overwrite=T )
 devtools::load_all( rdir )
