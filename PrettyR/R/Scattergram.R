@@ -21,7 +21,8 @@
 
 
 scatter_gram <- compiler::cmpfun( function(
-    X, Y,
+    X,
+    Y,
     XBINS=NULL,
     xbin_scale=function(x){x*2+.5},
 	xbks="Sturges",
@@ -29,6 +30,8 @@ scatter_gram <- compiler::cmpfun( function(
 	col=rgb(0,0,0,.5),
 	xlb="X",
 	ylb="Y",
+	xrange=NA,
+	yrange=NA,
 	ttl=NULL ) {
 
 
@@ -63,8 +66,12 @@ scatter_gram <- compiler::cmpfun( function(
 	plot.new()
     title( ttl )
     
+    if(is.na(xrange)){ xrange <- range(x, na.rm=T) }
+    if(is.na(yrange)){ yrange <- range(y, na.rm=T) }
+    
+
     ## Plot Raw Points
-	plot.window( range(x, na.rm=T), range(y, na.rm=T))
+	plot.window( xrange, yrange)
 	points(x=x, y=y, pch=16, col=col, cex=.2)
 	
 	## Axis 

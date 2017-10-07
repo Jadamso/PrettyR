@@ -1,0 +1,217 @@
+
+R version 3.4.1 (2017-06-30) -- "Single Candle"
+Copyright (C) 2017 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+
+[38;5;11m     CHEAT SHEETS: [0m
+source('/home/Jadamso/Desktop/Common/R_Code/RCheats.R') 
+
+[38;5;11m     R INFORMATION: [0m
+/home/Jadamso/lib64/R/bin/exec/R -f Code/PrettyR.R --restore --save --no-readline 
+~/Rprofile.site 
+wideScreen() 
+
+[38;5;11m     USER INFORMATION: [0m
+Jordan Adamson, 2017-10-06
+
+> #-------------------------------------------------------------------
+> ##################
+> # Setup 
+> ##################
+> library(devtools)
+> library(roxygen2)
+> library(MiscUtils)
+> 
+> hmdir <- path.expand("~/Desktop/Common/R_Code/")
+> pmdir <- path.expand("~/Desktop/Packages/")
+> 
+> #-------------------------------------------------------------------
+> ##################
+> # Make 
+> ##################
+> pack  <- "PrettyR"
+> pdir  <- paste0(path.expand("~/Desktop/Packages/"),pack,"/")
+> packg <- paste0(pdir, pack)
+> 
+> 
+> Version <- numeric_version("0.1.0")
+> 
+> 
+> # Setup R Package
+> source(paste0(pdir,"Code/PackageSetup.R") )
+Creating package 'PrettyR' in '/home/Jadamso/Desktop/Packages/PrettyR'
+No DESCRIPTION found. Creating with values:
+
+
+Package: PrettyR
+Title: Functions to make pretty graphs and tables
+Version: 0.1.0
+Authors@R: person("Jordan", "Adamson",
+        email="jordan.m.adamson@gmail.com",
+        role=c("aut","cre"))
+Description: Functions to make pretty graphs and tables. See my website <https://sites.google.com/a/g.clemson.edu/ja-resources>. or github <https://github.com/Jadamso>.
+Depends: R (>= 3.4.1)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Published: 2017-10-06
+Date: 2017-10-06
+URL: https://sites.google.com/a/g.clemson.edu/ja-resources
+
+To cite package 'PrettyR' in publications use:
+
+  Jordan Adamson (2017). PrettyR: Functions to make pretty graphs and
+  tables. R package version 0.1.0.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{PrettyR,
+    title = {{PrettyR}: Functions to make pretty graphs and tables},
+    author = {'Jordan Adamson'},
+    year = {2017},
+    month = {10},
+    note = {R package version 0.1.0},
+    url = {https://sites.google.com/a/g.clemson.edu/ja-resources},
+  }
+
+* Updating license field in DESCRIPTION.
+* Creating `LICENSE` from template.
+Creating package 'PrettyR' in '/home/Jadamso/Desktop/Packages/PrettyR'
+Updating PrettyR documentation
+Loading PrettyR
+Updating roxygen version in /home/Jadamso/Desktop/Packages/PrettyR/PrettyR/DESCRIPTION
+Writing NAMESPACE
+Setting env vars --------------------------------------------------------------
+CFLAGS  : -Wall -pedantic
+CXXFLAGS: -Wall -pedantic
+Building PrettyR --------------------------------------------------------------
+'/home/Jadamso/lib64/R/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD build  \
+  '/home/Jadamso/Desktop/Packages/PrettyR/PrettyR' --no-resave-data  \
+  --no-manual 
+
+* checking for file ‘/home/Jadamso/Desktop/Packages/PrettyR/PrettyR/DESCRIPTION’ ... OK
+* preparing ‘PrettyR’:
+* checking DESCRIPTION meta-information ... OK
+* checking for LF line-endings in source and make files
+* checking for empty or unneeded directories
+Removed empty directory ‘PrettyR/R’
+Removed empty directory ‘PrettyR/data’
+Removed empty directory ‘PrettyR/inst/extdata’
+Removed empty directory ‘PrettyR/man’
+* building ‘PrettyR_0.1.0.tar.gz’
+
+Setting env vars --------------------------------------------------------------
+_R_CHECK_CRAN_INCOMING_USE_ASPELL_: TRUE
+_R_CHECK_CRAN_INCOMING_           : FALSE
+_R_CHECK_FORCE_SUGGESTS_          : FALSE
+Checking PrettyR --------------------------------------------------------------
+'/home/Jadamso/lib64/R/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD check '/tmp/Rtmpc6yyjT/PrettyR_0.1.0.tar.gz'  \
+  --as-cran --timings --no-manual 
+
+* using log directory ‘/tmp/Rtmpc6yyjT/PrettyR.Rcheck’
+* using R version 3.4.1 (2017-06-30)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using options ‘--no-manual --as-cran’
+* checking for file ‘PrettyR/DESCRIPTION’ ... OK
+* this is package ‘PrettyR’ version ‘0.1.0’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘PrettyR’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking examples ... NONE
+* DONE
+
+Status: OK
+
+> 
+> # Create R Package Contents
+> source(paste0(pdir,"Code/CodeSetup.R") )
+* Adding utils to Imports
+Next: 
+Refer to functions with utils::fun()
+* Adding stargazer to Imports
+Next: 
+Refer to functions with stargazer::fun()
+* Adding parallel to Imports
+Next: 
+Refer to functions with parallel::fun()
+Loading PrettyR
+Updating PrettyR documentation
+Loading PrettyR
+Warning: @param [TableMaker.R#8]: requires name and description
+Warning: @param [TableMaker.R#9]: requires name and description
+Warning: @param [TableMaker.R#10]: requires name and description
+Warning: @param [TableMaker.R#11]: requires name and description
+Warning: @param [TableMaker.R#12]: requires name and description
+Warning: @param [TableMaker.R#13]: requires name and description
+Warning: @param [TableMaker.R#14]: requires name and description
+Warning: @param [TableMaker.R#15]: requires name and description
+Warning: @param [TableMaker.R#17]: requires name and description
+Warning: @param [TableMaker.R#18]: requires name and description
+Warning: @param [TableMaker.R#19]: requires name and description
+Warning: @param [TableMaker.R#20]: requires name and description
+Warning: @param [TableMaker.R#21]: requires name and description
+Warning: @param [TableMaker_trim.R#144]: requires name and description
+Warning: @param [TableMaker_trim.R#145]: requires name and description
+Warning: @param [TableMaker_trim.R#146]: requires name and description
+Warning: @param [TableMaker_trim.R#147]: requires name and description
+Warning: @param [TableMaker_trim.R#148]: requires name and description
+Writing NAMESPACE
+Writing CI_lu.Rd
+Writing polygon_ci.Rd
+Writing polygon_add.Rd
+Writing polygon_plot.Rd
+Writing scatter_gram.Rd
+Writing spaghetti_lines.Rd
+Writing spaghetti_mean.Rd
+Writing spaghetti_plot.Rd
+Writing stargazerJ.Rd
+Writing matJ.Rd
+Writing stargazerJlist.Rd
+Writing mfxtrim.Rd
+Writing mfxlist2vec.Rd
+Writing UROOT.Rd
+Writing root.Rd
+Writing mfx.Rd
+Writing mfxi.lm.Rd
+Writing loess_list.Rd
+> 
+> pack_up(pdir)
+/home/Jadamso/Desktop/Packages/PrettyR/ is required to already be on github

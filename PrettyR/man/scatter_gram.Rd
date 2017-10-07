@@ -6,7 +6,7 @@
 \usage{
 scatter_gram(X, Y, XBINS = NULL, xbin_scale = function(x) {     x * 2 + 0.5
   }, xbks = "Sturges", ybks = "Sturges", col = rgb(0, 0, 0, 0.5),
-  xlb = "X", ylb = "Y", ttl = NULL)
+  xlb = "X", ylb = "Y", xrange = NA, yrange = NA, ttl = NULL)
 }
 \arguments{
 \item{X}{vector of values}
