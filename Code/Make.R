@@ -44,4 +44,6 @@ print("Done")
 
 ## source("~/Desktop/Packages/PrettyR/Code/PrettyR.R")
 
-## R CMD BATCH Code/PrettyR.R && rm PrettyR.Rout .Rdata
+## R CMD BATCH --no-save Code/Make.R && rm Make.Rout
+
+

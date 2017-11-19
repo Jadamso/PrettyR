@@ -19,8 +19,7 @@ options(devtools.name="Jordan Adamson",
 ##################
 # Package Description
 ################## 
-
-Title <- 'Functions to make pretty graphs and tables'
+Title <- pack
 URL   <- 'https://sites.google.com/a/g.clemson.edu/ja-resources'
 Description <- 'Functions to make pretty graphs and tables. See my website <https://sites.google.com/a/g.clemson.edu/ja-resources>. or github <https://github.com/Jadamso>.'
 #This projects adheres to semantic versioning <http://semver.org/>
