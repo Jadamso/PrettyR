@@ -26,7 +26,7 @@ rfile <- c(
     "TableMaker.R"
 )
 
-rfiles <- paste0(hmdir, "PrettyR/", rfile)
+rfiles <- paste0(hmdir, pack, "/", rfile)
     
 # Move Code
 file.copy(rfiles, rdir, overwrite=T )
