@@ -121,10 +121,10 @@ _R_CHECK_CRAN_INCOMING_           : FALSE
 _R_CHECK_FORCE_SUGGESTS_          : FALSE
 Checking PrettyR --------------------------------------------------------------
 '/home/Jadamso/lib64/R/bin/R' --no-site-file --no-environ --no-save  \
-  --no-restore --quiet CMD check '/tmp/Rtmp5y6Vla/PrettyR_0.1.0.tar.gz'  \
+  --no-restore --quiet CMD check '/tmp/RtmpNMQ1U7/PrettyR_0.1.0.tar.gz'  \
   --as-cran --timings --no-manual 
 
-* using log directory ‘/tmp/Rtmp5y6Vla/PrettyR.Rcheck’
+* using log directory ‘/tmp/RtmpNMQ1U7/PrettyR.Rcheck’
 * using R version 3.4.1 (2017-06-30)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -174,7 +174,7 @@ Refer to functions with parallel::fun()
 Loading PrettyR
 Updating PrettyR documentation
 Loading PrettyR
-Warning: @param [Scatboot.R#91]: requires name and description
+Warning: @param [Scatboot.R#95]: requires name and description
 Warning: @param [TableMaker.R#8]: requires name and description
 Warning: @param [TableMaker.R#9]: requires name and description
 Warning: @param [TableMaker.R#10]: requires name and description
@@ -193,6 +193,7 @@ Warning: @param [TableMaker_trim.R#145]: requires name and description
 Warning: @param [TableMaker_trim.R#146]: requires name and description
 Warning: @param [TableMaker_trim.R#147]: requires name and description
 Warning: @param [TableMaker_trim.R#148]: requires name and description
+Warning: @ [Ttest.R#15]: unknown tag
 Writing NAMESPACE
 Writing CI_lu.Rd
 Writing polygon_ci.Rd
@@ -212,6 +213,7 @@ Writing mfxlist2vec.Rd
 Writing UROOT.Rd
 Writing root.Rd
 Writing mfx.Rd
+Writing Ttest2.Rd
 Writing mfxi.lm.Rd
 Writing loess_list.Rd
 > 

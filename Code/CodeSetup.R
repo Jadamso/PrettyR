@@ -23,6 +23,7 @@ rfile <- c(
     "PolygonPlot.R",
     "Scattergram.R",
     "Scatboot.R",
+    "Ttest.R",
     "TableMaker_trim.R",
     "TableMaker.R"
 )
