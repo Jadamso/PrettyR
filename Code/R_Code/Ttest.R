@@ -38,7 +38,7 @@ Ttest2 <- compiler::cmpfun( function(m1, m2, s1, s2, n1, n2, side=2, m0=0) {
 
 	# Calculate PVALUES
     # welch-satterthwaite df
-    DF     <- ( (se1**2 + se2**2)^2 )/( (se1**2)^2/(n1-1) + (se2**2)^2/(n2-1) )
+    DF     <- ( (s1**2 + s2**2)^2 )/( (s1**2)^2/(n1-1) + (s2**2)^2/(n2-1) )
 
 	## Pvalue calculation
 		# pvalue = P(t>t_hat) = 1- P(t < t_hat)

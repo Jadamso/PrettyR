@@ -121,10 +121,10 @@ _R_CHECK_CRAN_INCOMING_           : FALSE
 _R_CHECK_FORCE_SUGGESTS_          : FALSE
 Checking PrettyR --------------------------------------------------------------
 '/home/Jadamso/lib64/R/bin/R' --no-site-file --no-environ --no-save  \
-  --no-restore --quiet CMD check '/tmp/RtmpNMQ1U7/PrettyR_0.1.0.tar.gz'  \
+  --no-restore --quiet CMD check '/tmp/RtmpnyFuqp/PrettyR_0.1.0.tar.gz'  \
   --as-cran --timings --no-manual 
 
-* using log directory ‘/tmp/RtmpNMQ1U7/PrettyR.Rcheck’
+* using log directory ‘/tmp/RtmpnyFuqp/PrettyR.Rcheck’
 * using R version 3.4.1 (2017-06-30)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
