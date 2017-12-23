@@ -63,8 +63,8 @@ scatboot <- compiler::cmpfun( function(
     stddev     <- apply(pred, 2, sd, na.rm=T)
 
 
-    pfit <- cbind( x=x.out[n.na.test], y.fit=y.fit[n.na.test],
-        up.lim=up.low.lim[1,], low.lim=up.low.lim[2,], stddev=stddev)
+    pfit <- as.data.frame( cbind( x=x.out[n.na.test], y.fit=y.fit[n.na.test],
+        up.lim=up.low.lim[1,], low.lim=up.low.lim[2,], stddev=stddev) )
     
     ret_list <- list(
         nreps=nreps,
