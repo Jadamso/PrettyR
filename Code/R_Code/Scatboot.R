@@ -1,10 +1,11 @@
 #------------------------------------------------------------------
 ##################
-#' Bootstrapped Loess Confidence Intervals
+#' M out of N Bootstrapped Loess Confidence Intervals
 ################## 
 #'
 #' @param x,y coordinates
-#' @param nreps number of bootstrap replications 
+#' @param breps number of bootstrap replications
+#' @param mfun function to define m out of n subsample
 #' @param confidence CI interval
 #' @param degree,span,family  loess parameters
 #' 
@@ -17,8 +18,9 @@
 
 scatboot <- compiler::cmpfun( function(
     x, y,
-    nreps=100, confidence=0.9,
-    degree=2, span=2/3, family="gaussian"){
+    breps=100, mfun=function(m){m^(.9)},
+    confidence=0.9, family="gaussian",
+    degree=2, span=2/3){
 
     # Put input data into a data frame, sorted by x, with no missing
     # values.
@@ -40,8 +42,10 @@ scatboot <- compiler::cmpfun( function(
     y.fit <- approx(f$x, fitted(f), x.out,rule=2)$y
 
     # Generate bootstrap replicates
-    PREDS <- parallel::mclapply( seq(nreps), function(i, len=length(dat$x)){
-        ndx  <- sample(len,replace=T)
+    PREDS <- parallel::mclapply( seq(breps), function(i, len=length(dat$x)){
+        m    <- mfun(len)
+        ndx  <- sample.int(len, size=m, replace=TRUE)
+        
         fit  <- loess(y[ndx]~x[ndx], degree=degree,
                    span=span, family=family)
         pred <- predict(fit, newdata=x.out)
@@ -54,7 +58,7 @@ scatboot <- compiler::cmpfun( function(
     # Calculate limits and standard deviation   
     # Too few good values to get estimate?
     n.na <- apply(is.na(pred), 2, sum)  # num NAs in each column
-    n.na.test <- !(n.na > nreps*(1.0-confidence) ) 
+    n.na.test <- !(n.na > breps*(1.0-confidence) ) 
     pred <- pred[, n.na.test]
     
     # effective confidence excluding NAs
@@ -71,7 +75,7 @@ scatboot <- compiler::cmpfun( function(
         stddev=stddev) )
     
     ret_list <- list(
-        nreps=nreps,
+        breps=breps,
         confidence=confidence,
         degree=degree,
         span=span,
@@ -83,43 +87,3 @@ scatboot <- compiler::cmpfun( function(
 })
 
 
-#------------------------------------------------------------------
-##################
-#' Welchs T-test for a Y variable calculated from a window on each side of x0
-################## 
-#'
-#' @param wind fraction (percent of data to include)
-#' @param dframe data to cut
-#' @param x0 
-#' @param yvar
-#' @param xvar
-#' 
-#' @return list of loess outputs
-#' 
-# @examples
-# @details 
-#'
-#' @export
-
-
-Wstat <- compiler::cmpfun( function(
-    wind, dframe, x0, yvar, xvar, corr=0, ...){
-    
-	window <- wind*diff(range(dframe[,xvar]))
-	x1 <- x0-window
-	x2 <- x0+window
-	
-	df1 <- dframe[ which( dframe[,xvar]< x0  & dframe[,xvar] > x1 ) , ]
-	df2 <- dframe[ which( dframe[,xvar]>= x0 & dframe[,xvar] < x2 ) , ]
-	
-	u1  <- mean(df1[,yvar], na.rm=TRUE)
-	u2  <- mean(df2[,yvar], na.rm=TRUE)
-	U   <- u1 - u2
-	
-	v1  <- stats::var(df1[,yvar], na.rm=TRUE)/nrow(df1)
-	v2  <- stats::var(df2[,yvar], na.rm=TRUE)/nrow(df2)
-	V   <- sqrt(v1 + v2 - 2*corr*sqrt(v1)*sqrt(v2) )
-	
-	T_VAL <- U/V
-	return( c(U, T_VAL) )
-} )

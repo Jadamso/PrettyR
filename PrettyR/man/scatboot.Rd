@@ -2,15 +2,17 @@
 % Please edit documentation in R/Scatboot.R
 \name{scatboot}
 \alias{scatboot}
-\title{Bootstrapped Loess Confidence Intervals}
+\title{M out of N Bootstrapped Loess Confidence Intervals}
 \usage{
-scatboot(x, y, nreps = 100, confidence = 0.9, degree = 2, span = 2/3,
-  family = "gaussian")
+scatboot(x, y, breps = 100, mfun = function(m) {     m^(0.9) },
+  confidence = 0.9, family = "gaussian", degree = 2, span = 2/3)
 }
 \arguments{
 \item{x, y}{coordinates}
 
-\item{nreps}{number of bootstrap replications}
+\item{breps}{number of bootstrap replications}
+
+\item{mfun}{function to define m out of n subsample}
 
 \item{confidence}{CI interval}
 
@@ -20,7 +22,7 @@ scatboot(x, y, nreps = 100, confidence = 0.9, degree = 2, span = 2/3,
 list of loess outputs
 }
 \description{
-Bootstrapped Loess Confidence Intervals
+M out of N Bootstrapped Loess Confidence Intervals
 }
 \details{
 see "http://content.csbs.utah.edu/~rogers/datanal/R/scatboot.r"

@@ -27,7 +27,7 @@ source('/home/Jadamso/Desktop/Common/R_Code/RCheats.R')
 wideScreen() 
 
 [38;5;11m     USER INFORMATION: [0m
-Jordan Adamson, 2017-12-23
+Jordan Adamson, 2017-12-31
 
 > #-------------------------------------------------------------------
 > ##################
@@ -69,8 +69,8 @@ Depends: R (>= 3.4.1)
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Published: 2017-12-23
-Date: 2017-12-23
+Published: 2017-12-31
+Date: 2017-12-31
 URL: https://sites.google.com/a/g.clemson.edu/ja-resources
 
 To cite package 'PrettyR' in publications use:
@@ -121,10 +121,10 @@ _R_CHECK_CRAN_INCOMING_           : FALSE
 _R_CHECK_FORCE_SUGGESTS_          : FALSE
 Checking PrettyR --------------------------------------------------------------
 '/home/Jadamso/lib64/R/bin/R' --no-site-file --no-environ --no-save  \
-  --no-restore --quiet CMD check '/tmp/RtmpnyFuqp/PrettyR_0.1.0.tar.gz'  \
+  --no-restore --quiet CMD check '/tmp/RtmpVkU9fR/PrettyR_0.1.0.tar.gz'  \
   --as-cran --timings --no-manual 
 
-* using log directory ‘/tmp/RtmpnyFuqp/PrettyR.Rcheck’
+* using log directory ‘/tmp/RtmpVkU9fR/PrettyR.Rcheck’
 * using R version 3.4.1 (2017-06-30)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -174,7 +174,7 @@ Refer to functions with parallel::fun()
 Loading PrettyR
 Updating PrettyR documentation
 Loading PrettyR
-Warning: @param [Scatboot.R#95]: requires name and description
+Warning: @param [StdError.R#10]: requires name and description
 Warning: @param [TableMaker.R#8]: requires name and description
 Warning: @param [TableMaker.R#9]: requires name and description
 Warning: @param [TableMaker.R#10]: requires name and description
@@ -200,11 +200,11 @@ Writing polygon_ci.Rd
 Writing polygon_add.Rd
 Writing polygon_plot.Rd
 Writing scatboot.Rd
-Writing Wstat.Rd
 Writing scatter_gram.Rd
 Writing spaghetti_lines.Rd
 Writing spaghetti_mean.Rd
 Writing spaghetti_plot.Rd
+Writing Wstat.Rd
 Writing stargazerJ.Rd
 Writing matJ.Rd
 Writing stargazerJlist.Rd
@@ -214,6 +214,7 @@ Writing UROOT.Rd
 Writing root.Rd
 Writing mfx.Rd
 Writing Ttest2.Rd
+Writing bin_mode.Rd
 Writing mfxi.lm.Rd
 Writing loess_list.Rd
 > 
