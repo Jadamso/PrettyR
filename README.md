@@ -98,7 +98,8 @@ stargazerJlist(c(REGS, REGS), keep="X1")
   
 ```
 
-
+## Todo
+add https://github.com/kklot/R-Utils/blob/master/s2n.R
 
 ## Caveat Emptor
 This is a pre-release to the public and not gauranteed to work correctly with your code and data.

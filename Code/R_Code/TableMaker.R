@@ -22,7 +22,7 @@
 #'
 #' @return datatable
 #' 
-# @details
+#' @details See also matJ
 # @examples
 #'  
 #' @export
@@ -154,7 +154,7 @@ stargazerJ <- function(Xmat,
 #' @export
 
 matJ <- compiler::cmpfun( function( Xmat,
-    Xrows=1:nrow(Xmat),
+    Xrows=(1:nrow(Xmat))[ 1:nrow(Xmat) %% 2 == 0 ], 
     Xcols=1:ncol(Xmat),
     Xrd=0,
     Xfm=NULL){
