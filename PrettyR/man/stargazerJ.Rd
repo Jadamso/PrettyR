@@ -23,3 +23,6 @@ datatable
 \description{
 Table Formatting
 }
+\details{
+See also matJ
+}

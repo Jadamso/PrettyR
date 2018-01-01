@@ -4,8 +4,8 @@
 \alias{matJ}
 \title{Convert Matrix for stargazerJ}
 \usage{
-matJ(Xmat, Xrows = 1:nrow(Xmat), Xcols = 1:ncol(Xmat), Xrd = 0,
-  Xfm = NULL)
+matJ(Xmat, Xrows = (1:nrow(Xmat))[1:nrow(Xmat)\%\%2 == 0],
+  Xcols = 1:ncol(Xmat), Xrd = 0, Xfm = NULL)
 }
 \arguments{
 \item{Xmat}{a matrix of summary regression information}
