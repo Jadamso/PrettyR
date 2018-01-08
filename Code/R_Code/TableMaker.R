@@ -126,7 +126,7 @@ stargazerJ <- function(Xmat,
     }
 
     ## Replace Mutliplication Symbol
-    TABLE <- gsub( "\\textbackslash times", "\\times", TABLE)
+    TABLE <- gsub( "\\\\textbackslash times", "\\\\times", TABLE)
 
 
     ## Save Table
