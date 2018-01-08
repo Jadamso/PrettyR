@@ -27,7 +27,7 @@ source('/home/Jadamso/Desktop/Common/R_Code/RCheats.R')
 wideScreen() 
 
 [38;5;11m     USER INFORMATION: [0m
-Jordan Adamson, 2018-01-01
+Jordan Adamson, 2018-01-08
 
 > #-------------------------------------------------------------------
 > ##################
@@ -68,8 +68,8 @@ Depends: R (>= 3.4.1)
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Published: 2018-01-01
-Date: 2018-01-01
+Published: 2018-01-08
+Date: 2018-01-08
 URL: https://sites.google.com/a/g.clemson.edu/ja-resources
 
 To cite package 'PrettyR' in publications use:
@@ -120,10 +120,10 @@ _R_CHECK_CRAN_INCOMING_           : FALSE
 _R_CHECK_FORCE_SUGGESTS_          : FALSE
 Checking PrettyR --------------------------------------------------------------
 '/home/Jadamso/lib64/R/bin/R' --no-site-file --no-environ --no-save  \
-  --no-restore --quiet CMD check '/tmp/RtmpZaDhr3/PrettyR_0.1.1.tar.gz'  \
+  --no-restore --quiet CMD check '/tmp/RtmpWK36TK/PrettyR_0.1.1.tar.gz'  \
   --as-cran --timings --no-manual 
 
-* using log directory ‘/tmp/RtmpZaDhr3/PrettyR.Rcheck’
+* using log directory ‘/tmp/RtmpWK36TK/PrettyR.Rcheck’
 * using R version 3.4.1 (2017-06-30)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
