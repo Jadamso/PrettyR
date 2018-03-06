@@ -27,7 +27,7 @@ source('/home/Jadamso/Desktop/Common/R_Code/RCheats.R')
 wideScreen() 
 
 [38;5;11m     USER INFORMATION: [0m
-Jordan Adamson, 2018-01-08
+Jordan Adamson, 2018-03-05
 
 > #-------------------------------------------------------------------
 > ##################
@@ -68,8 +68,8 @@ Depends: R (>= 3.4.1)
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Published: 2018-01-08
-Date: 2018-01-08
+Published: 2018-03-05
+Date: 2018-03-05
 URL: https://sites.google.com/a/g.clemson.edu/ja-resources
 
 To cite package 'PrettyR' in publications use:
@@ -82,7 +82,7 @@ A BibTeX entry for LaTeX users is
     title = {{PrettyR}: PrettyR},
     author = {'Jordan Adamson'},
     year = {2018},
-    month = {1},
+    month = {3},
     note = {R package version 0.1.1},
     url = {https://sites.google.com/a/g.clemson.edu/ja-resources},
   }
@@ -120,10 +120,10 @@ _R_CHECK_CRAN_INCOMING_           : FALSE
 _R_CHECK_FORCE_SUGGESTS_          : FALSE
 Checking PrettyR --------------------------------------------------------------
 '/home/Jadamso/lib64/R/bin/R' --no-site-file --no-environ --no-save  \
-  --no-restore --quiet CMD check '/tmp/RtmpAmDrym/PrettyR_0.1.1.tar.gz'  \
+  --no-restore --quiet CMD check '/tmp/RtmpGqryIE/PrettyR_0.1.1.tar.gz'  \
   --as-cran --timings --no-manual 
 
-* using log directory ‘/tmp/RtmpAmDrym/PrettyR.Rcheck’
+* using log directory ‘/tmp/RtmpGqryIE/PrettyR.Rcheck’
 * using R version 3.4.1 (2017-06-30)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -170,6 +170,10 @@ Refer to functions with stargazer::fun()
 * Adding parallel to Imports
 Next: 
 Refer to functions with parallel::fun()
+* Adding formattable to Suggests
+Next: 
+Use requireNamespace("formattable", quietly = TRUE) to test if package is installed,
+then use formattable::fun() to refer to functions.
 Loading PrettyR
 Updating PrettyR documentation
 Loading PrettyR

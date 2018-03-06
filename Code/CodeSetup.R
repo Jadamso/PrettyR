@@ -5,11 +5,9 @@
 
 ## Imported Packages: (.packages())
 rfiles <- c("utils", "stargazer", "parallel")
-for( i in rfiles) {
-    devtools::use_package( i, pkg=packg)
-}
+for( i in rfiles) { devtools::use_package( i, pkg=packg) }
 
-# devtools::use_package( i, "Suggests", pkg=pdir)}
+devtools::use_package( "formattable", "Suggests", pkg=packg)
 
 #-------------------------------------------------------------------
 ##################
