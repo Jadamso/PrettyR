@@ -31,7 +31,8 @@ See also matJ
 MATRIX <- data.frame( diag(4) )
 NOTES <- paste0("NOTE", LETTERS, collapse=" ")
 new.align <- "l cc @{\\\\\\\\hspace{18pt}} cc"
-TITLE <- paste0("& \\\\\\\\multicolumn{2}{c}{MEOW}&\\\\\\\\multicolumn{2}{c}{MIX}\\\\\\\\\\\\\\\\",
+TITLE <- paste0( "& \\\\\\\\multicolumn{2}{c}{MEOW}", 
+   "&\\\\\\\\multicolumn{2}{c}{MIX}  \\\\\\\\\\\\\\\\",
    "& Estimate & SE & Estimate & SE")
 C3     <- paste0( " Controls &", " G$\\\\&$P & & G$\\\\&$P & ", " \\\\\\\\ ")
 C4     <- paste0( " F.E. &", " C$\\\\&$T & & C$\\\\&$T & ", " \\\\\\\\ ")
