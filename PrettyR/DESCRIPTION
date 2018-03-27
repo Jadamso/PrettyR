@@ -10,6 +10,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Author: Jordan Adamson [aut, cre]
+Maintainer: Jordan Adamson <jordan.m.adamson@gmail.com>
 Published: 2018-03-26
 Date: 2018-03-26
 URL: https://sites.google.com/a/g.clemson.edu/ja-resources

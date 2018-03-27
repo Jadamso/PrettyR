@@ -23,13 +23,14 @@ Title <- pack
 URL   <- 'https://sites.google.com/a/g.clemson.edu/ja-resources'
 Description <- 'Functions to make pretty graphs and tables. See my website <https://sites.google.com/a/g.clemson.edu/ja-resources>. or github <https://github.com/Jadamso>.'
 #This projects adheres to semantic versioning <http://semver.org/>
-Maint <- "'Jordan Adamson<jordan.m.adamson@gmail.com>'"
+Maint <- "Jordan Adamson <jordan.m.adamson@gmail.com>"
+Author <- "Jordan Adamson [aut, cre]"
 
 
 my_description <- list(
-    # "Maintainer" = Maint, 
     "Title"      = Title,
-    "Author"     = "Jordan Adamson [aut, cre]",
+    "Author"     = Author,
+    "Maintainer" = Maint, 
     "Description"= Description,
     "Published"  = Sys.Date(),
     "Date"       = Sys.Date(),
