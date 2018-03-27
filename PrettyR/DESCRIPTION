@@ -1,10 +1,10 @@
 Package: PrettyR
-Title: PrettyR
+Title: Functions to make pretty graphs and tables.
 Version: 0.1.1
 Authors@R: person("Jordan", "Adamson",
         email="jordan.m.adamson@gmail.com",
         role=c("aut","cre"))
-Description: Functions to make pretty graphs and tables.
+Description: 
 Depends: R (>= 3.4.1)
 License: MIT + file LICENSE
 Encoding: UTF-8

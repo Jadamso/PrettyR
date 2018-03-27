@@ -19,10 +19,13 @@ options(devtools.name="Jordan Adamson",
 ##################
 # Package Description
 ################## 
-Title <- pack
-URL   <- paste0(' <https://github.com/Jadamso/',Title,'>')#'https://sites.google.com/a/g.clemson.edu/ja-resources'
-Description <- 'Functions to make pretty graphs and tables.'
+
+Title <- 'Functions to make pretty graphs and tables.'
+Description <- ' '
 #This projects adheres to semantic versioning <http://semver.org/>
+
+URL   <- paste0(' <https://github.com/Jadamso/',pack,'>')
+#'https://sites.google.com/a/g.clemson.edu/ja-resources'
 Maint <- "Jordan Adamson <jordan.m.adamson@gmail.com>"
 Author <- "Jordan Adamson [aut, cre]"
 
