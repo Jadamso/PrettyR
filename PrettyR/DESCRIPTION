@@ -13,7 +13,7 @@ Author: Jordan Adamson [aut, cre]
 Maintainer: Jordan Adamson <jordan.m.adamson@gmail.com>
 Published: 2018-03-26
 Date: 2018-03-26
-URL: https://sites.google.com/a/g.clemson.edu/ja-resources or github <https://github.com/Jadamso>
+URL: <https://github.com/Jadamso/PrettyR>
 RoxygenNote: 6.0.1
 Imports: utils,
     stargazer,
