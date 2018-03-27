@@ -27,7 +27,7 @@ source('/home/Jadamso/Desktop/Common/R_Code/RCheats.R')
 wideScreen() 
 
 [38;5;11m     USER INFORMATION: [0m
-Jordan Adamson, 2018-03-23
+Jordan Adamson, 2018-03-26
 
 > #-------------------------------------------------------------------
 > ##################
@@ -68,8 +68,9 @@ Depends: R (>= 3.4.1)
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Published: 2018-03-23
-Date: 2018-03-23
+Author: Jordan Adamson [aut, cre]
+Published: 2018-03-26
+Date: 2018-03-26
 URL: https://sites.google.com/a/g.clemson.edu/ja-resources
 
 To cite package 'PrettyR' in publications use:
@@ -120,10 +121,10 @@ _R_CHECK_CRAN_INCOMING_           : FALSE
 _R_CHECK_FORCE_SUGGESTS_          : FALSE
 Checking PrettyR --------------------------------------------------------------
 '/home/Jadamso/lib64/R/bin/R' --no-site-file --no-environ --no-save  \
-  --no-restore --quiet CMD check '/tmp/Rtmp4Thl2B/PrettyR_0.1.1.tar.gz'  \
+  --no-restore --quiet CMD check '/tmp/Rtmpag3OTx/PrettyR_0.1.1.tar.gz'  \
   --as-cran --timings --no-manual 
 
-* using log directory ‘/tmp/Rtmp4Thl2B/PrettyR.Rcheck’
+* using log directory ‘/tmp/Rtmpag3OTx/PrettyR.Rcheck’
 * using R version 3.4.1 (2017-06-30)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -333,7 +334,7 @@ exmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 No file Rd2.ind.
-[14] (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[14] (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 Package rerunfilecheck Warning: File `Rd2.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -346,7 +347,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (14 pages, 102823 bytes).
+Output written on Rd2.pdf (14 pages, 103017 bytes).
 Transcript written on Rd2.log.
 This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex)
  restricted \write18 enabled.
@@ -405,25 +406,24 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [3]
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [4]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -438,19 +438,20 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [10]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [11]
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 No file Rd2.ind.
-[14] (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux) ){/usr/share/
-texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/f
-onts/enc/dvips/inconsolata/i4-t1-0.enc}</usr/share/texlive/texmf-dist/fonts/typ
-e1/public/inconsolata/Inconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
-imes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (14 pages, 104803 bytes).
+[14] (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux) ){/usr/share
+/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/
+fonts/enc/dvips/inconsolata/i4-t1-0.enc}</usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/inconsolata/Inconsolata-zi4r.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (14 pages, 104555 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -515,25 +516,24 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [3]
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [4]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -548,15 +548,16 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [10]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [11]
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 Package rerunfilecheck Warning: File `Rd2.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -572,7 +573,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106696 bytes).
+Output written on Rd2.pdf (15 pages, 106447 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -637,20 +638,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -673,12 +674,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -689,7 +690,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106766 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -754,20 +755,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -790,12 +791,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -806,7 +807,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106783 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -871,20 +872,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -907,12 +908,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -923,7 +924,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106783 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -988,20 +989,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -1024,12 +1025,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1040,7 +1041,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106783 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -1105,20 +1106,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -1141,12 +1142,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1157,7 +1158,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106783 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -1222,20 +1223,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -1258,12 +1259,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1274,7 +1275,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106783 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -1339,20 +1340,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -1375,12 +1376,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1391,7 +1392,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106783 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -1456,20 +1457,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -1492,12 +1493,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1508,7 +1509,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106783 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -1573,20 +1574,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -1609,12 +1610,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1625,7 +1626,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106783 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -1690,20 +1691,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -1726,12 +1727,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1742,7 +1743,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106783 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -1807,20 +1808,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -1843,12 +1844,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1859,7 +1860,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106783 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -1924,20 +1925,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -1960,12 +1961,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1976,7 +1977,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106783 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -2041,20 +2042,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -2077,12 +2078,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2093,7 +2094,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106783 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -2158,20 +2159,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -2194,12 +2195,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2210,7 +2211,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106783 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -2275,20 +2276,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -2311,12 +2312,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2327,7 +2328,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106783 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -2392,20 +2393,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -2428,12 +2429,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2444,7 +2445,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106783 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).
@@ -2509,20 +2510,20 @@ Package hyperref Warning: Option `pagebackref' has already been used,
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
 Writing index file Rd2.idx
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.out)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.toc [1{/usr/share/texli
-ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.toc [1{/usr/share/texl
+ive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [2]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
@@ -2545,12 +2546,12 @@ ve/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [12]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def) [13]
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def)
-(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.ind [14]
+(/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.ind [14]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
 (Font)              using `T1/zi4/m/n' instead on input line 25.
 
-[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf2145/Rd2.aux)
+[15]) (/home/Jadamso/Desktop/Packages/PrettyR/.Rd2pdf11442/Rd2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2561,7 +2562,7 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (15 pages, 106783 bytes).
+Output written on Rd2.pdf (15 pages, 106961 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning input file Rd2.idx....done (25 entries accepted, 0 rejected).

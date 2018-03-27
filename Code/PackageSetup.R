@@ -29,6 +29,7 @@ Maint <- "'Jordan Adamson<jordan.m.adamson@gmail.com>'"
 my_description <- list(
     # "Maintainer" = Maint, 
     "Title"      = Title,
+    "Author"     = "Jordan Adamson [aut, cre]",
     "Description"= Description,
     "Published"  = Sys.Date(),
     "Date"       = Sys.Date(),
