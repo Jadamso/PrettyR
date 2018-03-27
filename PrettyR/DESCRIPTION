@@ -4,7 +4,7 @@ Version: 0.1.1
 Authors@R: person("Jordan", "Adamson",
         email="jordan.m.adamson@gmail.com",
         role=c("aut","cre"))
-Description: Functions to make pretty graphs and tables. See my website <https://sites.google.com/a/g.clemson.edu/ja-resources>. or github <https://github.com/Jadamso>.
+Description: Functions to make pretty graphs and tables.
 Depends: R (>= 3.4.1)
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -13,7 +13,7 @@ Author: Jordan Adamson [aut, cre]
 Maintainer: Jordan Adamson <jordan.m.adamson@gmail.com>
 Published: 2018-03-26
 Date: 2018-03-26
-URL: https://sites.google.com/a/g.clemson.edu/ja-resources
+URL: https://sites.google.com/a/g.clemson.edu/ja-resources or github <https://github.com/Jadamso>
 RoxygenNote: 6.0.1
 Imports: utils,
     stargazer,
