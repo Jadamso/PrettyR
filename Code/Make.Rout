@@ -2563,3 +2563,75 @@ Done
 > 
 > MiscUtils::pack_up(pdir)
 /home/Jadamso/Desktop/Packages/PrettyR/ is required to already be on github
+
+(evince:22812): Gtk-WARNING **: Allocating size to EvSidebar 0x558fac181710 without calling gtk_widget_get_preferred_width/height(). How does the code know the size to allocate?
+To https://github.com/Jadamso/PrettyR.git
+   9a9990e..b7f81b0  master -> master
+[1] "/home/Jadamso/Desktop/Packages/PrettyR/"
+> ## https://www.rstudio.com/wp-content/uploads/2015/03/devtools-cheatsheet.pdf
+> 
+> devtools::install(packg) ## Locally Works
+Installing PrettyR
+'/home/Jadamso/lib64/R/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/home/Jadamso/Desktop/Packages/PrettyR/PrettyR'  \
+  --library='/home/Jadamso/R-Libs' --install-tests 
+
+* installing *source* package ‘PrettyR’ ...
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (PrettyR)
+Reloading installed PrettyR
+> 
+> devtools::install_github( paste0("Jadamso/",pack), subdir=pack)
+Downloading GitHub repo Jadamso/PrettyR@master
+from URL https://api.github.com/repos/Jadamso/PrettyR/zipball/master
+Installing PrettyR
+'/home/Jadamso/lib64/R/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/tmp/RtmpY8r4a2/devtools526c2f6920a/Jadamso-PrettyR-b7f81b0/PrettyR'  \
+  --library='/home/Jadamso/R-Libs' --install-tests 
+
+* installing *source* package ‘PrettyR’ ...
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (PrettyR)
+Reloading installed PrettyR
+> 
+> citation(pack)
+
+To cite package 'PrettyR' in publications use:
+
+  Jordan Adamson (2018). PrettyR: Functions to make pretty graphs and
+  tables.. R package version 0.1.1.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{PrettyR,
+    title = {{PrettyR}: Functions to make pretty graphs and tables.},
+    author = {'Jordan Adamson'},
+    year = {2018},
+    month = {3},
+    note = {R package version 0.1.1},
+    url = { <https://github.com/Jadamso/PrettyR>},
+  }
+
+> 
+> print("Done")
+[1] "Done"
+> 
+> ## R CMD BATCH --no-save Code/Make.R Code/Make.Rout
+> 
+> proc.time()
+   user  system elapsed 
+  9.735   1.217  16.828 
