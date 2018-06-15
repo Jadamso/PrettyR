@@ -29,7 +29,7 @@ stargazerJlist(c(REGS, REGS), keep="X1")
 -->
 
 
-```{r}
+```r
 
 library(PrettyR)
 
