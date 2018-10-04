@@ -4,8 +4,8 @@
 \alias{CI_lu}
 \title{Custom confidence intervals}
 \usage{
-CI_lu(Pred = NULL, CI = NULL, Fit = NULL, SE = NULL, level = 0.95,
-  degf = Inf)
+CI_lu(Pred = NULL, CI = NULL, Fit = NULL, SE = NULL,
+  level = 0.95, degf = Inf)
 }
 \arguments{
 \item{Pred}{predict(reg, se.fit = TRUE) object}

@@ -4,8 +4,8 @@
 \alias{polygon_plot}
 \title{Plot the polygon}
 \usage{
-polygon_plot(reg, xname, xlb = "X", ylb = "Y", xlm = NULL, ylm = NULL,
-  ttl = NULL, off = FALSE, ...)
+polygon_plot(reg, xname, xlb = "X", ylb = "Y", xlm = NULL,
+  ylm = NULL, ttl = NULL, off = FALSE, ...)
 }
 \arguments{
 \item{reg}{lm object}
