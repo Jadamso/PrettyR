@@ -190,8 +190,8 @@ scatter_gram2 <- compiler::cmpfun( function(
 	plot.new()
     title( ttl )
     
-    if(is.na(xrange)){ xrange <- range(x, na.rm=T) }
-    if(is.na(yrange)){ yrange <- range(y, na.rm=T) }
+    if(any(is.na(xrange))){ xrange <- range(x, na.rm=T) }
+    if(any(is.na(yrange))){ yrange <- range(y, na.rm=T) }
     
 
     ## Plot Raw Points

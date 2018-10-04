@@ -130,10 +130,10 @@ _R_CHECK_CRAN_INCOMING_           : FALSE
 _R_CHECK_FORCE_SUGGESTS_          : FALSE
 Checking PrettyR --------------------------------------------------------------
 '/home/Jadamso2/lib64/R/bin/R' --no-site-file --no-environ --no-save  \
-  --no-restore --quiet CMD check '/tmp/RtmpRvnu35/PrettyR_0.1.2.tar.gz'  \
+  --no-restore --quiet CMD check '/tmp/RtmpyOTXN2/PrettyR_0.1.2.tar.gz'  \
   --as-cran --timings --no-manual 
 
-* using log directory ‘/tmp/RtmpRvnu35/PrettyR.Rcheck’
+* using log directory ‘/tmp/RtmpyOTXN2/PrettyR.Rcheck’
 * using R version 3.5.0 (2018-04-23)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -145,7 +145,7 @@ Required field missing or empty:
 
 Status: 1 ERROR
 See
-  ‘/tmp/RtmpRvnu35/PrettyR.Rcheck/00check.log’
+  ‘/tmp/RtmpyOTXN2/PrettyR.Rcheck/00check.log’
 for details.
 
 > 
