@@ -1,5 +1,5 @@
 bibentry(bibtype = "Manual",
-         textVersion = "Jordan Adamson (2018). PrettyR: Functions to make pretty graphs and tables.. R package version 0.1.2.",
+         textVersion = "Jordan Adamson (2018). PrettyR: Functions to make pretty graphs and tables.. R package version 0.1.3.",
          header = "To cite package 'PrettyR' in publications use:",
          key = "PrettyR",
          title = "{PrettyR}: Functions to make pretty graphs and tables.",
@@ -9,5 +9,5 @@ bibentry(bibtype = "Manual",
                          email = "jordan.m.adamson@gmail.com"),
          year = "2018",
          month = "10",
-         note = "R package version 0.1.2",
+         note = "R package version 0.1.3",
          url = " <https://github.com/Jadamso/PrettyR>")

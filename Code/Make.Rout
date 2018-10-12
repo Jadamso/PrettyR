@@ -27,7 +27,7 @@ source('~/Desktop/Packages/MiscUtils/RCheats.R')
 wideScreen() 
 
 [38;5;11m     USER INFORMATION: [0m
-Jordan Adamson, 2018-10-04
+Jordan Adamson, 2018-10-11
 
 > #-------------------------------------------------------------------
 > ##################
@@ -56,7 +56,7 @@ The following object is masked from ‘package:base’:
 > packg <- paste0(pdir, pack)
 > 
 > 
-> Version <- numeric_version("0.1.2")
+> Version <- numeric_version("0.1.3")
 > 
 > # Setup R Package
 > source(paste0(pdir,"Code/PackageSetup.R") )
@@ -66,7 +66,7 @@ No DESCRIPTION found. Creating with values:
 
 Package: PrettyR
 Title: Functions to make pretty graphs and tables.
-Version: 0.1.2
+Version: 0.1.3
 Authors@R: person("Jordan", "Adamson",
         email="jordan.m.adamson@gmail.com",
         role=c("aut","cre"))
@@ -77,14 +77,14 @@ Encoding: UTF-8
 LazyData: true
 Author: Jordan Adamson [aut, cre]
 Maintainer: Jordan Adamson <jordan.m.adamson@gmail.com>
-Published: 2018-10-04
-Date: 2018-10-04
+Published: 2018-10-11
+Date: 2018-10-11
 URL: <https://github.com/Jadamso/PrettyR>
 
 To cite package 'PrettyR' in publications use:
 
   Jordan Adamson (2018). PrettyR: Functions to make pretty graphs and
-  tables.. R package version 0.1.2.
+  tables.. R package version 0.1.3.
 
 A BibTeX entry for LaTeX users is
 
@@ -93,7 +93,7 @@ A BibTeX entry for LaTeX users is
     author = {'Jordan Adamson'},
     year = {2018},
     month = {10},
-    note = {R package version 0.1.2},
+    note = {R package version 0.1.3},
     url = { <https://github.com/Jadamso/PrettyR>},
   }
 
@@ -122,7 +122,7 @@ Removed empty directory ‘PrettyR/R’
 Removed empty directory ‘PrettyR/data’
 Removed empty directory ‘PrettyR/inst/extdata’
 Removed empty directory ‘PrettyR/man’
-* building ‘PrettyR_0.1.2.tar.gz’
+* building ‘PrettyR_0.1.3.tar.gz’
 
 Setting env vars --------------------------------------------------------------
 _R_CHECK_CRAN_INCOMING_USE_ASPELL_: TRUE
@@ -130,10 +130,10 @@ _R_CHECK_CRAN_INCOMING_           : FALSE
 _R_CHECK_FORCE_SUGGESTS_          : FALSE
 Checking PrettyR --------------------------------------------------------------
 '/home/Jadamso2/lib64/R/bin/R' --no-site-file --no-environ --no-save  \
-  --no-restore --quiet CMD check '/tmp/RtmpyOTXN2/PrettyR_0.1.2.tar.gz'  \
+  --no-restore --quiet CMD check '/tmp/RtmpBghph4/PrettyR_0.1.3.tar.gz'  \
   --as-cran --timings --no-manual 
 
-* using log directory ‘/tmp/RtmpyOTXN2/PrettyR.Rcheck’
+* using log directory ‘/tmp/RtmpBghph4/PrettyR.Rcheck’
 * using R version 3.5.0 (2018-04-23)
 * using platform: x86_64-pc-linux-gnu (64-bit)
 * using session charset: UTF-8
@@ -145,7 +145,7 @@ Required field missing or empty:
 
 Status: 1 ERROR
 See
-  ‘/tmp/RtmpyOTXN2/PrettyR.Rcheck/00check.log’
+  ‘/tmp/RtmpBghph4/PrettyR.Rcheck/00check.log’
 for details.
 
 > 
@@ -187,7 +187,9 @@ Warning: @param [/home/Jadamso2/Desktop/Packages/PrettyR/PrettyR/R/TableMaker_tr
 Warning: @param [/home/Jadamso2/Desktop/Packages/PrettyR/PrettyR/R/TableMaker_trim.R#147]: requires name and description
 Warning: @param [/home/Jadamso2/Desktop/Packages/PrettyR/PrettyR/R/TableMaker_trim.R#148]: requires name and description
 Warning: @ [/home/Jadamso2/Desktop/Packages/PrettyR/PrettyR/R/Ttest.R#15]: unknown tag
+Warning: ColorPalette.R:8: @example /home/Jadamso2/Desktop/Packages/PrettyR/PrettyR/spatstat::colourmap(mypal(20), breaks=seq(0,1,by=.05)) doesn't exist
 Writing NAMESPACE
+Writing mypal.Rd
 Writing CI_lu.Rd
 Writing polygon_ci.Rd
 Writing polygon_add.Rd
@@ -223,9 +225,9 @@ Writing loess_list.Rd
 * checking for empty or unneeded directories
 Removed empty directory ‘PrettyR/data’
 Removed empty directory ‘PrettyR/inst/extdata’
-* building ‘PrettyR_0.1.2.tar.gz’
+* building ‘PrettyR_0.1.3.tar.gz’
 
-[1] "/home/Jadamso2/Desktop/Packages/PrettyR/PrettyR_0.1.2.tar.gz"
+[1] "/home/Jadamso2/Desktop/Packages/PrettyR/PrettyR_0.1.3.tar.gz"
 > 
 > system( paste0('R CMD Rd2pdf ', packg) )
 Hmm ... looks like a package

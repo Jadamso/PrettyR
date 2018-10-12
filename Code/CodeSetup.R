@@ -23,6 +23,7 @@ rfile <- c(
     "Scatboot.R",
     "StdError.R",
     "bin_mode.R",
+    "ColorPalette.R",
     "Ttest.R",
     "TableMaker_trim.R",
     "TableMaker.R"
