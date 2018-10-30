@@ -241,3 +241,87 @@ file ‘PrettyR.pdf’ exists; please remove it first
 > 
 > MiscUtils::pack_up(pdir)
 /home/Jadamso2/Desktop/Packages/PrettyR/ is required to already be on github
+To https://github.com/Jadamso/PrettyR.git
+   a21f737..07feabf  master -> master
+[1] "/home/Jadamso2/Desktop/Packages/PrettyR/"
+> ## https://www.rstudio.com/wp-content/uploads/2015/03/devtools-cheatsheet.pdf
+> 
+> devtools::install(packg) ## Locally Works
+Installing PrettyR
+'/home/Jadamso2/lib64/R/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/home/Jadamso2/Desktop/Packages/PrettyR/PrettyR'  \
+  --library='/home/Jadamso2/R-Libs' --install-tests 
+
+* installing *source* package ‘PrettyR’ ...
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (PrettyR)
+Reloading installed PrettyR
+
+Attaching package: ‘PrettyR’
+
+The following object is masked from ‘package:MiscUtils’:
+
+    mypal
+
+> 
+> devtools::install_github( paste0("Jadamso/",pack), subdir=pack)
+Downloading GitHub repo Jadamso/PrettyR@master
+from URL https://api.github.com/repos/Jadamso/PrettyR/zipball/master
+Installing PrettyR
+'/home/Jadamso2/lib64/R/bin/R' --no-site-file --no-environ --no-save  \
+  --no-restore --quiet CMD INSTALL  \
+  '/tmp/RtmpBghph4/devtools2dcb1ae5140e/Jadamso-PrettyR-07feabf/PrettyR'  \
+  --library='/home/Jadamso2/R-Libs' --install-tests 
+
+* installing *source* package ‘PrettyR’ ...
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (PrettyR)
+Reloading installed PrettyR
+
+Attaching package: ‘PrettyR’
+
+The following object is masked from ‘package:MiscUtils’:
+
+    mypal
+
+> 
+> citation(pack)
+
+To cite package 'PrettyR' in publications use:
+
+  Jordan Adamson (2018). PrettyR: Functions to make pretty graphs and
+  tables.. R package version 0.1.3.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{PrettyR,
+    title = {{PrettyR}: Functions to make pretty graphs and tables.},
+    author = {'Jordan Adamson'},
+    year = {2018},
+    month = {10},
+    note = {R package version 0.1.3},
+    url = { <https://github.com/Jadamso/PrettyR>},
+  }
+
+> 
+> print("Done")
+[1] "Done"
+> 
+> ## R CMD BATCH --no-save Code/Make.R Code/Make.Rout
+> 
+> proc.time()
+   user  system elapsed 
+  4.655   0.471  12.799 
