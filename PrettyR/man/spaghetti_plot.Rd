@@ -4,9 +4,20 @@
 \alias{spaghetti_plot}
 \title{Spaghetti Plot, a loess line for each list element}
 \usage{
-spaghetti_plot(LoList, pdfname, xlb = "X", ylb = "Y", ttl = NULL,
-  xln = 3, yln = 3, xlm = NULL, ylm = NULL, plot_col = rgb(0, 0,
-  0, 0.5), meanline = FALSE, ...)
+spaghetti_plot(
+  LoList,
+  pdfname,
+  xlb = "X",
+  ylb = "Y",
+  ttl = NULL,
+  xln = 3,
+  yln = 3,
+  xlm = NULL,
+  ylm = NULL,
+  plot_col = rgb(0, 0, 0, 0.5),
+  meanline = FALSE,
+  ...
+)
 }
 \arguments{
 \item{LoList}{output from PrettyR::spag_loess}

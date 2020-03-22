@@ -4,8 +4,7 @@
 \alias{CI_lu}
 \title{Custom confidence intervals}
 \usage{
-CI_lu(Pred = NULL, CI = NULL, Fit = NULL, SE = NULL,
-  level = 0.95, degf = Inf)
+CI_lu(Pred = NULL, CI = NULL, Fit = NULL, SE = NULL, level = 0.95, degf = Inf)
 }
 \arguments{
 \item{Pred}{predict(reg, se.fit = TRUE) object}
@@ -28,6 +27,6 @@ Custom confidence intervals
 }
 \details{
 Should first try
-   predict(reg, interval = 'confidence', level=level) 
-   note deg=inf coef estimates are approx normally distributed
+predict(reg, interval = 'confidence', level=level)
+note deg=inf coef estimates are approx normally distributed
 }

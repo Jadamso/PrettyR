@@ -1,4 +1,4 @@
-# PrettyR
+# <p align="center"> PrettyR
 
 Functions to make pretty graphs and tables
 
@@ -6,11 +6,9 @@ Functions to make pretty graphs and tables
 ## To install latest release from Github: 
 
 ```r
-
 #install.packages("devtools")
 devtools::install_github("Jadamso/PrettyR",subdir="PrettyR")
 citation("PrettyR")
-
 ```
 
 

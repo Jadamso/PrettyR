@@ -4,8 +4,7 @@
 \alias{loess_list}
 \title{Run Multiple Loess for Spaghetti Plot}
 \usage{
-loess_list(form, splitDF, spag_idname, split = FALSE, parallel = TRUE,
-  ...)
+loess_list(form, splitDF, spag_idname, split = FALSE, parallel = TRUE, ...)
 }
 \arguments{
 \item{form}{regression formula}

@@ -44,6 +44,10 @@ my_description <- list(
         role=c("aut","cre"))'
 )
 options(devtools.desc=my_description)
+usethis::use_description()
+
+# License
+usethis::use_mit_license(packg)
 
 #------------------------------------------------------------------
 ##################
@@ -53,7 +57,7 @@ options(devtools.desc=my_description)
 ## install.packages(sinew)
 
 # license warning goes away with next code block
-package.setup.safe(packg, check=F)
+#package.setup.safe(packg, check=F)
 
 
 rdir    <- paste0(packg, "/R")
@@ -90,7 +94,6 @@ bibref <- bibentry(
     month = month,
     note = note, 
     url = URL)
-    
 print(bibref, style = "citation")
 
 
@@ -98,14 +101,4 @@ writeLines(
     paste(format(bibref, "R"),
     collapse = "\n\n"),
     con=paste0(idir, "/CITATION"))
-#------------------------------------------------------------------
-##################
-# License
-################## 
 
-options( devtools.desc.license='MIT + file LICENSE' )
-usethis::proj_activate(packg)
-usethis::use_mit_license(packg)
-#writeLines( c( paste0("YEAR: ", year), "COPYRIGHT HOLDER: Jordan Adamson"), con=paste0( packg, "/LICENSE") )
-
-package.setup.safe(packg, check=T)

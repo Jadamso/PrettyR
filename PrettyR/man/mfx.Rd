@@ -4,8 +4,15 @@
 \alias{mfx}
 \title{Formatting}
 \usage{
-mfx(MFXall, trimnames = "PCrast5", varnames = c("HHI", "HHI^2"),
-  cnames = c("ACLED", "UCDP"), ROOT = TRUE, nvar = 3, colrep = 2)
+mfx(
+  MFXall,
+  trimnames = "PCrast5",
+  varnames = c("HHI", "HHI^2"),
+  cnames = c("ACLED", "UCDP"),
+  ROOT = TRUE,
+  nvar = 3,
+  colrep = 2
+)
 }
 \arguments{
 \item{nvar}{number of variables of interest}

@@ -1,21 +1,22 @@
 Package: PrettyR
 Title: Functions to make pretty graphs and tables.
-Version: 0.1.3
-Authors@R: person("Jordan", "Adamson",
-        email="jordan.m.adamson@gmail.com",
-        role=c("aut","cre"))
-Description: 
-Depends: R (>= 3.5.0)
-License: MIT + file LICENSE
-Encoding: UTF-8
-LazyData: true
+Version: 0.1.4
+Date: 2020-03-22
+Authors@R: 
+    person(given = "Jordan",
+           family = "Adamson",
+           role = c("aut", "cre"),
+           email = "jordan.m.adamson@gmail.com")
 Author: Jordan Adamson [aut, cre]
 Maintainer: Jordan Adamson <jordan.m.adamson@gmail.com>
-Published: 2018-10-11
-Date: 2018-10-11
+Description: 
+License: MIT + file LICENSE
 URL: <https://github.com/Jadamso/PrettyR>
-RoxygenNote: 6.1.0
-Imports: utils,
-    stargazer,
-    parallel
-Suggests: formattable
+Encoding: UTF-8
+LazyData: true
+Published: 2020-03-22
+Roxygen: list(markdown = TRUE)
+Imports: 
+    utils,
+    stargazer
+RoxygenNote: 7.1.0

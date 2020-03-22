@@ -5,14 +5,39 @@
 \alias{scatter_gram2}
 \title{Scatter Plot with Histograms}
 \usage{
-scatter_gram(X, Y, XBINS = NULL, xbin_scale = function(x) {     x * 2 +
-  0.5 }, xbks = "Sturges", ybks = "Sturges", col = rgb(0, 0, 0, 0.5),
-  xlb = "X", ylb = "Y", xrange = NA, yrange = NA, ttl = NULL)
+scatter_gram(
+  X,
+  Y,
+  XBINS = NULL,
+  xbin_scale = function(x) {     x * 2 + 0.5 },
+  xbks = "Sturges",
+  ybks = "Sturges",
+  col = rgb(0, 0, 0, 0.5),
+  xlb = "X",
+  ylb = "Y",
+  xrange = NA,
+  yrange = NA,
+  ttl = NULL
+)
 
-scatter_gram2(X, Y, XBINS = NULL, xbin_scale = function(x) {     x * 2
-  + 0.5 }, xbks = "Sturges", ybks = "Sturges", col = rgb(0, 0, 0,
-  0.5), xlb = "X", ylb = "Y", expr = "", xrange = NA,
-  yrange = NA, xm = NULL, ym = NULL, cexm = 0.2, ttl = NULL)
+scatter_gram2(
+  X,
+  Y,
+  XBINS = NULL,
+  xbin_scale = function(x) {     x * 2 + 0.5 },
+  xbks = "Sturges",
+  ybks = "Sturges",
+  col = rgb(0, 0, 0, 0.5),
+  xlb = "X",
+  ylb = "Y",
+  expr = "",
+  xrange = NA,
+  yrange = NA,
+  xm = NULL,
+  ym = NULL,
+  cexm = 0.2,
+  ttl = NULL
+)
 }
 \arguments{
 \item{X}{vector of values}

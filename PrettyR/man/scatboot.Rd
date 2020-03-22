@@ -4,8 +4,16 @@
 \alias{scatboot}
 \title{M out of N Bootstrapped Loess Confidence Intervals}
 \usage{
-scatboot(x, y, breps = 100, mfun = function(m) {     m^(0.9) },
-  confidence = 0.9, family = "gaussian", degree = 2, span = 2/3)
+scatboot(
+  x,
+  y,
+  breps = 100,
+  mfun = function(m) {     m^(0.9) },
+  confidence = 0.9,
+  family = "gaussian",
+  degree = 2,
+  span = 2/3
+)
 }
 \arguments{
 \item{x, y}{coordinates}

@@ -4,10 +4,12 @@
 ##################
 
 ## Imported Packages: (.packages())
-rfiles <- c("utils", "stargazer", "parallel")
-for( i in rfiles) { devtools::use_package( i, pkg=packg) }
+rfiles <- c("utils", "stargazer")
+for( i in rfiles) { usethis::use_package( i ) }
 
-devtools::use_package( "formattable", "Suggests", pkg=packg)
+#sfiles <-c("parallel", "formattable")
+#for( i in rfiles) { usethis::use_package( i,"Suggests", pkg=packg)}
+
 
 #-------------------------------------------------------------------
 ##################
@@ -26,7 +28,8 @@ rfile <- c(
     "ColorPalette.R",
     "Ttest.R",
     "TableMaker_trim.R",
-    "TableMaker.R"
+    "TableMaker.R",
+    "add_legend.R"
 )
 
 rfiles <- paste0(pdir,"Code/R_Code/",rfile)
@@ -34,8 +37,4 @@ rfiles <- paste0(pdir,"Code/R_Code/",rfile)
 # Move Code
 file.copy(rfiles, rdir, overwrite=T )
 devtools::load_all( rdir )
-
-# Create Code Documentation
-devtools::document( pkg=packg)
-
 

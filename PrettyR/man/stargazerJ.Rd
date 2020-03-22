@@ -4,11 +4,25 @@
 \alias{stargazerJ}
 \title{Table Formatting}
 \usage{
-stargazerJ(Xmat, ..., new.align = NULL, new.title = NULL,
-  new.metatitle = NULL, new.tail = NULL, tab.out = NULL,
-  new.notes = NULL, pb.tw = 1, new.omit = NULL, out = NULL,
-  column.sep.width = "0pt", new.digits = 2, new.digits.extra = 5,
-  new.table.placement = "H", new.other = TRUE, new.parbox = NULL)
+stargazerJ(
+  Xmat,
+  ...,
+  new.align = NULL,
+  new.title = NULL,
+  new.metatitle = NULL,
+  new.tail = NULL,
+  tab.out = NULL,
+  new.notes = NULL,
+  pb.tw = 1,
+  new.omit = NULL,
+  out = NULL,
+  column.sep.width = "0pt",
+  new.digits = 2,
+  new.digits.extra = 5,
+  new.table.placement = "H",
+  new.other = TRUE,
+  new.parbox = NULL
+)
 }
 \arguments{
 \item{Xmat}{object from matJ}

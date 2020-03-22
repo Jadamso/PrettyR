@@ -1,0 +1,16 @@
+#------------------------------------------------------------------
+##################
+#' Add legend to outer margins
+################## 
+#' @param ... passed to legend
+#' @return legend on outer margins 
+#  @examples
+#' @export
+add_legend <- compiler::cmpfun( function(...) {
+  opar <- par(fig=c(0, 1, 0, 1), oma=c(0, 0, 0, 0), 
+    mar=c(0, 0, 0, 0), new=TRUE)
+  on.exit(par(opar))
+  plot(0, 0, type='n', bty='n', xaxt='n', yaxt='n')
+  legend(...)
+} )
+
